@@ -1,11 +1,23 @@
-/* Estilo para los hexágonos */
+/* Estilos para la sección de proyectos */
+.projects {
+    text-align: center;
+    padding: 20px;
+}
+
+.projects h2 {
+    font-size: 24px;
+}
+
+/* Estilos para los hexágonos */
 .hexagon {
     width: 100px;
     height: 115px;
     position: relative;
     background-color: #007BFF; /* Cambia el color de fondo a tu gusto */
-    margin: 0 auto;
+    margin: 0 10px;
     margin-bottom: 20px;
+    display: inline-block;
+    transform: rotate(120deg);
 }
 
 .hexagon:before,
